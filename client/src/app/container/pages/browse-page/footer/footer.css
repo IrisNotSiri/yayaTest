@@ -1,0 +1,13 @@
+.FooterContainer {
+  width: 100%;
+  height: 50px;
+}
+
+.FooterContainer .footerMessage {
+  text-align: center;
+  color: black;
+  font-family: Impact, Charcoal, sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  padding-top: 2vh;
+}

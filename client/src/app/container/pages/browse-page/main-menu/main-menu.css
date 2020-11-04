@@ -1,0 +1,8 @@
+.MainMenuContainer {
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  /* align-content: stretch; */
+  align-content: space-evenly;
+  height: 100%;
+}

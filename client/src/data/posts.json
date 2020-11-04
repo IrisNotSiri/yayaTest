@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "name": "RestaurantA",
+    "location": {
+      "longitude": 1.0,
+      "latitude": 1.0
+    },
+    "city": "North York",
+    "country": "CA",
+    "openingHours": {
+      "mon": [1, 1],
+      "tue": [1, 1],
+      "wed": [1, 1],
+      "thu": [1, 1],
+      "fri": [1, 1],
+      "sat": [1, 1],
+      "sun": [1, 1]
+    },
+    "tag": ["chinese"],
+    "pic": "https://duyt4h9nfnj50.cloudfront.net/resized/1534776055379-w550-47.jpg",
+    "dishes": [
+      {
+        "id": 1,
+        "name": "宫保鸡丁",
+        "pic": "https://example.com/",
+        "originalPrice": 13.0,
+        "price": 11.0,
+        "description": "Famous Chinese dish",
+        "rating": 4.0,
+        "deleted": false
+      }
+    ],
+    "weeklySpecials": [1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "id": 1,
+    "name": "RestaurantA",
+    "location": {
+      "longitude": 1.0,
+      "latitude": 1.0
+    },
+    "city": "North York",
+    "country": "CA",
+    "openingHours": {
+      "mon": [1, 1],
+      "tue": [1, 1],
+      "wed": [1, 1],
+      "thu": [1, 1],
+      "fri": [1, 1],
+      "sat": [1, 1],
+      "sun": [1, 1]
+    },
+    "tag": ["chinese"],
+    "pic": "https://example.com/",
+    "dishes": [
+      {
+        "id": 1,
+        "name": "宫保鸡丁",
+        "pic": "https://example.com/",
+        "originalPrice": 13.0,
+        "price": 11.0,
+        "description": "Famous Chinese dish",
+        "rating": 4.0,
+        "deleted": false
+      }
+    ],
+    "weeklySpecials": [1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "id": 1,
+    "name": "RestaurantA",
+    "location": {
+      "longitude": 1.0,
+      "latitude": 1.0
+    },
+    "city": "North York",
+    "country": "CA",
+    "openingHours": {
+      "mon": [1, 1],
+      "tue": [1, 1],
+      "wed": [1, 1],
+      "thu": [1, 1],
+      "fri": [1, 1],
+      "sat": [1, 1],
+      "sun": [1, 1]
+    },
+    "tag": ["chinese"],
+    "pic": "https://example.com/",
+    "dishes": [
+      {
+        "id": 1,
+        "name": "宫保鸡丁",
+        "pic": "https://example.com/",
+        "originalPrice": 13.0,
+        "price": 11.0,
+        "description": "Famous Chinese dish",
+        "rating": 4.0,
+        "deleted": false
+      }
+    ],
+    "weeklySpecials": [1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "id": 1,
+    "name": "RestaurantA",
+    "location": {
+      "longitude": 1.0,
+      "latitude": 1.0
+    },
+    "city": "North York",
+    "country": "CA",
+    "openingHours": {
+      "mon": [1, 1],
+      "tue": [1, 1],
+      "wed": [1, 1],
+      "thu": [1, 1],
+      "fri": [1, 1],
+      "sat": [1, 1],
+      "sun": [1, 1]
+    },
+    "tag": ["chinese"],
+    "pic": "https://example.com/",
+    "dishes": [
+      {
+        "id": 1,
+        "name": "宫保鸡丁",
+        "pic": "https://example.com/",
+        "originalPrice": 13.0,
+        "price": 11.0,
+        "description": "Famous Chinese dish",
+        "rating": 4.0,
+        "deleted": false
+      }
+    ],
+    "weeklySpecials": [1, 1, 1, 1, 1, 1, 1]
+  }
+]

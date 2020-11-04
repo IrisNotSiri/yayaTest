@@ -1,0 +1,13 @@
+.DishDetailNavBarContainer {
+  width: 100%;
+  height: 60px;
+}
+
+.DishDetailNavBarContainer .detailHeader {
+  text-align: center;
+  color: black;
+  font-family: Impact, Charcoal, sans-serif;
+  font-weight: 700;
+  font-size: 1.5em;
+  padding-top: 2vh;
+}

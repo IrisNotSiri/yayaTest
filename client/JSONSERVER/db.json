@@ -1,0 +1,447 @@
+{
+  "dishes": [
+    {
+      "id": 1,
+      "name": "KongPao Chicken",
+      "pic": "kongpaoChicken.jpg",
+      "originalPrice": 13.5,
+      "price": 10.99,
+      "description": "Famous Chinese dish",
+      "ingredients": "Deep fried home made chicken.",
+      "rating": 4.0,
+      "deleted": false,
+      "distance": "260",
+      "restaurant": {
+        "id": 1,
+        "name": "Bayview Wok Chinese Restaurant",
+        "location": {
+          "longitude": 1.0,
+          "latitude": 1.0
+        },
+        "distance": 50,
+        "city": "North York",
+        "country": "CA",
+        "openingHours": {
+          "mon": [1, 1],
+          "tue": [1, 1],
+          "wed": [1, 1],
+          "thu": [1, 1],
+          "fri": [1, 1],
+          "sat": [1, 1],
+          "sun": [1, 1]
+        },
+        "tag": ["chinese"],
+        "pic": "kongpaoChicken.jpg"
+      },
+      "weeklySpecials": [1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+      "id": 2,
+      "name": "Seafood Fried Rice",
+      "pic": "dimsum.jpg",
+      "originalPrice": 12.5,
+      "price": 11.99,
+      "description": "Famous Chinese dish",
+      "ingredients": "Deep fried home made chicken.",
+      "rating": 4.0,
+      "deleted": false,
+      "distance": "260",
+      "restaurant": {
+        "id": 1,
+        "name": "Bayview Wok Chinese Restaurant",
+        "location": {
+          "longitude": 1.0,
+          "latitude": 1.0
+        },
+        "distance": 100,
+        "city": "North York",
+        "country": "CA",
+        "openingHours": {
+          "mon": [1, 1],
+          "tue": [1, 1],
+          "wed": [1, 1],
+          "thu": [1, 1],
+          "fri": [1, 1],
+          "sat": [1, 1],
+          "sun": [1, 1]
+        },
+        "tag": ["chinese"],
+        "pic": "kongpaoChicken.jpg"
+      },
+      "weeklySpecials": [1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+      "id": 3,
+      "name": "Spicy Green Beans",
+      "pic": "greenBeans.jpg",
+      "originalPrice": 9.99,
+      "price": 6.49,
+      "description": "Famous Chinese dish",
+      "ingredients": "Deep fried home made chicken.",
+      "rating": 4.0,
+      "deleted": false,
+      "distance": "260",
+      "restaurant": {
+        "id": 1,
+        "name": "Bayview Wok Chinese Restaurant",
+        "location": {
+          "longitude": 1.0,
+          "latitude": 1.0
+        },
+        "distance": 150,
+        "city": "North York",
+        "country": "CA",
+        "openingHours": {
+          "mon": [1, 1],
+          "tue": [1, 1],
+          "wed": [1, 1],
+          "thu": [1, 1],
+          "fri": [1, 1],
+          "sat": [1, 1],
+          "sun": [1, 1]
+        },
+        "tag": ["chinese"],
+        "pic": "kongpaoChicken.jpg"
+      },
+      "weeklySpecials": [1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+      "id": 4,
+      "name": "Steak with Rice and Corns",
+      "pic": "curry.jpg",
+      "originalPrice": 21,
+      "price": 17.99,
+      "description": "Famous Chinese dish",
+      "ingredients": "Deep fried home made chicken.",
+      "rating": 4.0,
+      "deleted": false,
+      "distance": "260",
+      "restaurant": {
+        "id": 1,
+        "name": "Bayview Wok Chinese Restaurant",
+        "location": {
+          "longitude": 1.0,
+          "latitude": 1.0
+        },
+        "distance": 200,
+        "city": "North York",
+        "country": "CA",
+        "openingHours": {
+          "mon": [1, 1],
+          "tue": [1, 1],
+          "wed": [1, 1],
+          "thu": [1, 1],
+          "fri": [1, 1],
+          "sat": [1, 1],
+          "sun": [1, 1]
+        },
+        "tag": ["chinese"],
+        "pic": "kongpaoChicken.jpg"
+      },
+      "weeklySpecials": [1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+      "id": 5,
+      "name": "Home made cold noodle",
+      "pic": "noodleEgg.jpg",
+      "originalPrice": 9.99,
+      "price": 8.99,
+      "description": "Famous Chinese dish",
+      "ingredients": "Deep fried home made chicken.",
+      "rating": 4.0,
+      "deleted": false,
+      "distance": "260",
+      "restaurant": {
+        "id": 1,
+        "name": "Bayview Wok Chinese Restaurant",
+        "location": {
+          "longitude": 1.0,
+          "latitude": 1.0
+        },
+        "distance": 250,
+        "city": "North York",
+        "country": "CA",
+        "openingHours": {
+          "mon": [1, 1],
+          "tue": [1, 1],
+          "wed": [1, 1],
+          "thu": [1, 1],
+          "fri": [1, 1],
+          "sat": [1, 1],
+          "sun": [1, 1]
+        },
+        "tag": ["chinese"],
+        "pic": "kongpaoChicken.jpg"
+      },
+      "weeklySpecials": [1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+      "id": 6,
+      "name": "Home Made Chicken with Rice",
+      "pic": "whiteCutChicken.jpg",
+      "originalPrice": 12.5,
+      "price": 10.99,
+      "description": "Famous Chinese dish",
+      "ingredients": "Deep fried home made chicken.",
+      "rating": 4.0,
+      "deleted": false,
+      "distance": "260",
+      "restaurant": {
+        "id": 1,
+        "name": "Bayview Wok Chinese Restaurant",
+        "location": {
+          "longitude": 1.0,
+          "latitude": 1.0
+        },
+        "distance": 300,
+        "city": "North York",
+        "country": "CA",
+        "openingHours": {
+          "mon": [1, 1],
+          "tue": [1, 1],
+          "wed": [1, 1],
+          "thu": [1, 1],
+          "fri": [1, 1],
+          "sat": [1, 1],
+          "sun": [1, 1]
+        },
+        "tag": ["chinese"],
+        "pic": "kongpaoChicken.jpg"
+      },
+      "weeklySpecials": [1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+      "id": 7,
+      "name": "A&W Papa Burger Meal",
+      "pic": "anw.jpg",
+      "originalPrice": 10.99,
+      "price": 9.99,
+      "description": "Famous Chinese dish",
+      "ingredients": "Deep fried home made chicken.",
+      "rating": 4.0,
+      "deleted": false,
+      "distance": "260",
+      "restaurant": {
+        "id": 1,
+        "name": "Bayview Wok Chinese Restaurant",
+        "location": {
+          "longitude": 1.0,
+          "latitude": 1.0
+        },
+        "distance": 350,
+        "city": "North York",
+        "country": "CA",
+        "openingHours": {
+          "mon": [1, 1],
+          "tue": [1, 1],
+          "wed": [1, 1],
+          "thu": [1, 1],
+          "fri": [1, 1],
+          "sat": [1, 1],
+          "sun": [1, 1]
+        },
+        "tag": ["chinese"],
+        "pic": "anw.jpg"
+      },
+      "weeklySpecials": [1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+      "id": 8,
+      "name": "Beef Burger",
+      "pic": "burger.jpg",
+      "originalPrice": 8.5,
+      "price": 7.5,
+      "description": "Famous Chinese dish",
+      "ingredients": "Deep fried home made chicken.",
+      "rating": 4.0,
+      "deleted": false,
+      "distance": "260",
+      "restaurant": {
+        "id": 1,
+        "name": "Bayview Wok Chinese Restaurant",
+        "location": {
+          "longitude": 1.0,
+          "latitude": 1.0
+        },
+        "distance": 400,
+        "city": "North York",
+        "country": "CA",
+        "openingHours": {
+          "mon": [1, 1],
+          "tue": [1, 1],
+          "wed": [1, 1],
+          "thu": [1, 1],
+          "fri": [1, 1],
+          "sat": [1, 1],
+          "sun": [1, 1]
+        },
+        "tag": ["chinese"],
+        "pic": "burger.jpg"
+      },
+      "weeklySpecials": [1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+      "id": 9,
+      "name": "麦当劳巨无霸套餐",
+      "pic": "mcdonald.jpg",
+      "originalPrice": 11.5,
+      "price": 4.99,
+      "description": "Famous Chinese dish",
+      "ingredients": "Deep fried home made chicken.",
+      "rating": 4.0,
+      "deleted": false,
+      "distance": "260",
+      "restaurant": {
+        "id": 1,
+        "name": "Bayview Wok Chinese Restaurant",
+        "location": {
+          "longitude": 1.0,
+          "latitude": 1.0
+        },
+        "distance": 450,
+        "city": "North York",
+        "country": "CA",
+        "openingHours": {
+          "mon": [1, 1],
+          "tue": [1, 1],
+          "wed": [1, 1],
+          "thu": [1, 1],
+          "fri": [1, 1],
+          "sat": [1, 1],
+          "sun": [1, 1]
+        },
+        "tag": ["chinese"],
+        "pic": "kongpaoChicken.jpg"
+      },
+      "weeklySpecials": [1, 1, 1, 1, 1, 1, 1]
+    }
+  ],
+  "dishdetails": [
+    {
+      "id": 1,
+      "restaurantName": "Bob's House",
+      "dishName": "KongPao Chicken",
+      "pic": "kongpaoChicken.jpg",
+      "restPicOut": "bobshouseinside.jpg",
+      "originalPrice": 13.5,
+      "price": 10.99,
+      "description": "Famous Chinese dish",
+      "ingredients": "Deep fried home made chicken.",
+      "rating": 4.0,
+      "deleted": false,
+      "distance": "260"
+    },
+    {
+      "id": 2,
+      "restaurantName": "Captain Boil",
+      "dishName": "Seafood Fried Rice",
+      "pic": "dimsum.jpg",
+      "restPicOut": "captainboilinside.jpg",
+      "originalPrice": 12.5,
+      "price": 11.99,
+      "description": "Famous Chinese dish",
+      "ingredients": "Deep fried home made chicken.",
+      "rating": 4.0,
+      "deleted": false,
+      "distance": "260"
+    },
+    {
+      "id": 3,
+      "restaurantName": "Chinese Crusine",
+      "dishName": "Spicy Green Beans",
+      "pic": "greenBeans.jpg",
+      "restPicOut": "chinesecrusineinside.jpg",
+      "originalPrice": 9.99,
+      "price": 6.49,
+      "description": "Famous Chinese dish",
+      "ingredients": "Deep fried home made chicken.",
+      "rating": 4.0,
+      "deleted": false,
+      "distance": "260"
+    },
+    {
+      "id": 4,
+      "restaurantName": "The Keg",
+      "dishName": "Steak with Rice and Corns",
+      "pic": "curry.jpg",
+      "restPicOut": "thekeginside.jpg",
+      "originalPrice": 21,
+      "price": 17.99,
+      "description": "Famous Chinese dish",
+      "ingredients": "Deep fried home made chicken.",
+      "rating": 4.0,
+      "deleted": false,
+      "distance": "260"
+    },
+    {
+      "id": 5,
+      "restaurantName": "Cho Han Wo",
+      "dishName": "Home made cold noodle",
+      "pic": "noodleEgg.jpg",
+      "restPicOut": "chohanwoinside.jpg",
+      "originalPrice": 9.99,
+      "price": 8.99,
+      "description": "Famous Chinese dish",
+      "ingredients": "Deep fried home made chicken.",
+      "rating": 4.0,
+      "deleted": false,
+      "distance": "260"
+    },
+    {
+      "id": 6,
+      "restaurantName": "Yang's HomeMade Chicken Rice",
+      "dishName": "Home Made Chicken with Rice",
+      "pic": "whiteCutChicken.jpg",
+      "restPicOut": "yangsinside.jpg",
+      "originalPrice": 12.5,
+      "price": 10.99,
+      "description": "Famous Chinese dish",
+      "ingredients": "Deep fried home made chicken.",
+      "rating": 4.0,
+      "deleted": false,
+      "distance": "260"
+    },
+    {
+      "id": 7,
+      "restaurantName": "A&W",
+      "dishName": "A&W Papa Burger Meal",
+      "pic": "anw.jpg",
+      "restPicOut": "anwinside.jpg",
+      "originalPrice": 10.99,
+      "price": 9.99,
+      "description": "Famous Chinese dish",
+      "ingredients": "Deep fried home made chicken.",
+      "rating": 4.0,
+      "deleted": false,
+      "distance": "260"
+    },
+    {
+      "id": 8,
+      "restaurantName": "Five Guys",
+      "dishName": "Beef Burger",
+      "pic": "burger.jpg",
+      "restPicOut": "fiveguysinside.jpg",
+      "originalPrice": 8.5,
+      "price": 7.5,
+      "description": "Famous Chinese dish",
+      "ingredients": "Deep fried home made chicken.",
+      "rating": 4.0,
+      "deleted": false,
+      "distance": "260"
+    },
+    {
+      "id": 9,
+      "restaurantName": "McDonald's",
+      "dishName": "麦当劳巨无霸套餐",
+      "pic": "mcdonald.jpg",
+      "restPicOut": "mcdonaldsinside.jpg",
+      "originalPrice": 11.5,
+      "price": 4.99,
+      "description": "Famous Chinese dish",
+      "ingredients": "Deep fried home made chicken.",
+      "rating": 4.0,
+      "deleted": false,
+      "distance": "260"
+    }
+  ]
+}
