@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./home-page.css";
 import { Link } from "react-router-dom";
+import BrowsePage from "./browse-page/browse-page";
 
 export default class HomePage extends Component {
   state = {};
@@ -20,6 +21,7 @@ export default class HomePage extends Component {
             </Link>
           </div>
         </div>
+        <BrowsePage/>
       </React.Fragment>
     );
   }
