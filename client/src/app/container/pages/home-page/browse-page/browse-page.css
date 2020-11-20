@@ -1,5 +1,6 @@
 .BrowsePageContainer {
-  /* background-color: whitesmoke; */
-  height: 1000px;
-  background-color: red;
+  height: 1300px;
+  width: 100%;
+  position: absolute;
+  top: 100vh;
 }

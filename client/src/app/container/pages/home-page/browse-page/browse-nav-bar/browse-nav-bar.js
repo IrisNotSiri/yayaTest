@@ -5,9 +5,9 @@ export default class NavBar extends Component {
   render() {
     return (
       <React.Fragment>
-        <div className="NavBarContainer">
-          <div className="title">
-            <span>Foods Near Me</span>
+        <div id = "navbar" className="NavBarContainer">
+          <div className="title" >
+            <span>Navbar</span>
           </div>
         </div>
       </React.Fragment>

@@ -1,6 +1,7 @@
 .NavBarContainer {
   width: 100%;
   height: 60px;
+  background-color: red;
 }
 .NavBarContainer .title {
   text-align: center;
