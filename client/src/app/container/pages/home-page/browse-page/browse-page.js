@@ -38,9 +38,11 @@ export default class BrowsePage extends Component {
     if(window.pageYOffset > window.screen.height){
       document.getElementById("navbar").style.position = "fixed";
       document.getElementById("navbar").style.top = "0";
+      document.getElementById("nav-placeholder").style.height = "34px";
     }else{
       document.getElementById("navbar").style.position = "static";
       document.getElementById("navbar").style.top = "100vh";
+      document.getElementById("nav-placeholder").style.height = "0";
     };
   };
   render() {
@@ -54,3 +56,9 @@ export default class BrowsePage extends Component {
     );
   }
 }
+
+// let node = document.createElement("LI");
+//       let textnode = document.createTextNode("Water");
+//       node.appendChild(textnode);
+//       document.getElementById("main-menu").appendChild(node);
+//       document.getElementById("main-menu").firstChild.style.height = "34px";
