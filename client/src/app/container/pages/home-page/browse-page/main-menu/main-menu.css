@@ -6,3 +6,9 @@
   align-content: space-evenly;
   height: 100%;
 }
+
+.MainMenuContainer .menu-section{
+  height: 300px;
+  width: 100%;
+  border: 1px solid black;
+}
