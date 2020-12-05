@@ -1,30 +1,40 @@
 import React, { Component } from "react";
 import "./main-menu.css";
 import DishCover from "./dish-cover/dish-cover";
+import { get } from "jquery";
 export default class MainMenu extends Component {
   state = {
-    dishes: []
+    menu: []
   };
 
-  // componentDidMount() {
-  //   this.getDishes();
-  //   //console.log(this.state.restaurants);
-  // }
+  componentDidMount() {
+    this.getDishes();
+    console.log("beginning");
+    console.log(this.state.menu);
+  }
 
-  // getDishes() {
-  //   fetch("http://localhost:3000/dishes")
-  //     .then(results => results.json())
-  //     .then(results => this.setState({ dishes: results }));
-  // }
+  getDishes() {
+    fetch("http://localhost:3000/menu")
+      .then(results => results.json())
+      .then(results => this.setState({ menu: results }))
+      .then(()=>{console.log(this.state.menu);})
+    // window.setTimeout(()=>{
+    //   console.log("after 1s");
+    //   console.log(this.state.menu);
+    // }, 1000);
+  }
 
   render() {
     return (
       <React.Fragment>
+         
         <main id="main-menu">
           <div id="nav-placeholder"></div>
           <section id="sweetNspicy">
-            <h1>Section 1</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis, blanditiis expedita? Earum eligendi pariatur quaerat quos expedita ab quibusdam ratione veniam in, mollitia fuga repudiandae?</p>
+            {this.state.menu.map((dish, index) => {
+            //  console.log(dish);
+            return <DishCover key={index} value={dish} id={index} />;
+            })}
           </section>
           <section id="spicyOnly">
             <h1>Section 2</h1>

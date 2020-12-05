@@ -1,14 +1,14 @@
 .MainMenuContainer {
-  background-color: white;
-  display: flex;
-  flex-wrap: wrap;
-  /* align-content: stretch; */
-  align-content: space-evenly;
-  height: 100%;
+
 }
 
 .MainMenuContainer .menu-section{
-  height: 300px;
-  width: 100%;
-  border: 1px solid black;
+
+  border: 1px solid red;
+}
+
+
+.segmentSpace{
+  height: 34px;
+  background-color: blue;
 }
