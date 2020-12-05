@@ -30,19 +30,27 @@ export default class MainMenu extends Component {
          
         <main id="main-menu">
           <div id="nav-placeholder"></div>
-          <section id="sweetNspicy">
+          
+          <section id="sweetSpicy">
             {this.state.menu.map((dish, index) => {
-            //  console.log(dish);
-            return <DishCover key={index} value={dish} id={index} />;
+              if(dish.category == "sweetSpicy"){
+                return <DishCover key={index} value={dish} id={index} />;
+              }
             })}
           </section>
-          <section id="spicyOnly">
-            <h1>Section 2</h1>
-            <p>Ratione nulla nam, ipsa dignissimos corrupti veniam nostrum, laudantium asperiores sequi numquam placeat velit voluptate in praesentium non labore unde incidunt laborum maxime quae magni.</p>
+          <section id="spicy">
+            {this.state.menu.map((dish, index) => {
+              if(dish.category == "spicy"){
+                return <DishCover key={index} value={dish} id={index} />;
+              }
+            })}
           </section>
-          <section id="seaFood">
-            <h1>Section 4</h1>
-            <p>Aliquid aliquam magnam ducimus similique obcaecati, unde exercitationem laborum incidunt, quas in ipsum inventore nostrum? Blanditiis optio cumque earum iste odio! Alias sint accusamus repudiandae.</p>
+          <section id="seafood">
+            {this.state.menu.map((dish, index) => {
+              if(dish.category == "seafood"){
+                return <DishCover key={index} value={dish} id={index} />;
+              }
+            })}
           </section>
         </main>
       </React.Fragment>
