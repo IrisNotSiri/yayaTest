@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import "./dish-cover.css";
 
 export default class DishCover extends Component {
@@ -13,7 +13,7 @@ export default class DishCover extends Component {
               src={require("../../../../../assets/" + this.props.value.img)}
               alt="a pic"
             /> */}
-            <img src = "https://picsum.photos/100" alt="a pic"/>
+            <img src = "https://picsum.photos/150" alt="a pic"/>
           </div>
         </div>
       </React.Fragment>
