@@ -1,7 +1,7 @@
 from rest_framework import routers
-from .api import yayaViewSet
+from .api import MenuViewSet
 
 router = routers.DefaultRouter()
-router.register('api/yayaApi',yayaViewSet, 'yayaApi')
+router.register('menu',MenuViewSet, 'menu')
 
 urlpatterns = router.urls
