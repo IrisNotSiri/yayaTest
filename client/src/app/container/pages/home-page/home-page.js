@@ -5,7 +5,7 @@ import BrowsePage from "./browse-page/browse-page";
 import yayaLogo from "./yaya_app.png";
 import brandName from "./brand_name.png"
 import downArrow from "./up_arrow.webp";
-import Image from 'react-bootstrap/Image'
+import Image from "react-bootstrap/Image";
 
 export default class HomePage extends Component {
   state = {};

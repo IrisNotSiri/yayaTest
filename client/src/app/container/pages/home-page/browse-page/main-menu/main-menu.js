@@ -11,7 +11,7 @@ export default class MainMenu extends Component {
   }
 
   getDishes() {
-    fetch("http://localhost:3000/menu")
+    fetch("http://localhost:8000/menu")
       .then(results => results.json())
       .then(results => this.setState({ menu: results }));
   }
