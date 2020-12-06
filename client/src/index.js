@@ -3,7 +3,6 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./app/app";
 import * as serviceWorker from "./serviceWorker";
-import Dish from "./dish/dish.js"
 
 ReactDOM.render(<App />, document.getElementById("root"));
 
