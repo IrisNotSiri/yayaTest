@@ -57,8 +57,3 @@ export default class BrowsePage extends Component {
   }
 }
 
-// let node = document.createElement("LI");
-//       let textnode = document.createTextNode("Water");
-//       node.appendChild(textnode);
-//       document.getElementById("main-menu").appendChild(node);
-//       document.getElementById("main-menu").firstChild.style.height = "34px";
