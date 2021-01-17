@@ -31,14 +31,16 @@ export default class HomePage extends Component {
           <div className="basicInfoContainer">
             <Image className= "brandName" src={brandName} rounded />
             <div className="basicInfo">
-              Addr: Pembina Hwy
+              Addr: Pembina Hwy...
+              <a href="http://maps.google.com/maps?q=320+Harry+Walker+Pkwy+N+#9,+Newmarket,+ON+L3Y7B4">Google Maps</a> 
+              <a href="http://maps.apple.com/?address=320,Harry+Walker+Pkwy+N+#9,Newmarket,Ontario">Apple Maps</a> 
             </div>
             <div className="basicInfo">
               Hours: 10AM - 8PM
             </div>
 
             <div className="basicInfo">
-              Phone Num:
+              Phone Num:<a href="tel:1 416 887 5025">Iris number</a>
             </div>
             <div>
             <Image className= "downArrow" src={downArrow} onClick = {this.handleScrollToStats} rounded />
