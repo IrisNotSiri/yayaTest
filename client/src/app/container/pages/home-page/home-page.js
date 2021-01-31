@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import BrowsePage from "./browse-page/browse-page";
 import yayaLogo from "./yaya_app.png";
 import brandName from "./brand_name.png"
-import downArrow from "./up_arrow.webp";
+// import downArrow from "./up_arrow.webp";
 import Image from "react-bootstrap/Image";
 export default class HomePage extends Component {
 
@@ -36,7 +36,7 @@ export default class HomePage extends Component {
               </span>
             </div>
             <div className="basicInfo">
-              <span className="paddingButton">糖记店内自取</span>
+              <span className="paddingButton">糖记店内自取..</span>
               <a href="http://maps.apple.com/?address=320,Harry+Walker+Pkwy+N+#9,Newmarket,Ontario" className="googleMapsButton">开始导航</a>
             </div>
             <div className="basicInfo">
@@ -52,9 +52,9 @@ export default class HomePage extends Component {
             </div>
 
            
-            <div>
+            {/* <div>
             <Image className= "downArrow" src={downArrow} onClick = {this.handleScrollToStats} rounded />
-            </div>
+            </div> */}
           </div>
         </div>
         <div ref={this.stateRef}><BrowsePage/></div>
