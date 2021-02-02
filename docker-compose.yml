@@ -3,18 +3,18 @@ version: "3"
 services:
   backend:
     build: ./api/yaya_backend
+    
     volumes:
       - ./api/yaya_backend:/app
     ports:
       - 8000:8000
+    container_name: yaya_backend_1
   frontend:
     build: ./client
     volumes:
       - ./client:/app
-    command: 
-      npm install 
     ports:
       - 3000:3000
     depends_on:
       - backend
-      
+    container_name: yaya_frontend_1
