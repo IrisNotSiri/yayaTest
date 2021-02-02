@@ -20,6 +20,13 @@
   left: 20px;
 }
 
+.HomePageContainer .switchLan{
+  width: 10%;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
 .HomePageContainer .brandName{
   position: relative;
   top: 0px;
@@ -45,7 +52,7 @@
 .HomePageContainer .basicInfoContainer .basicInfo {
   height: 3.5rem;
   color: white;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-weight: bold;
   text-shadow: 2px 2px 3px black;
 }
@@ -54,7 +61,7 @@
 .HomePageContainer .basicInfoContainer .basicInfo .googleMapsButton{
   background-color: #4CAF50;
   border: none;
-  border-radius: 1.4rem;
+  border-radius: 1.2rem;
   color: white;
   padding: 10px 20px;
   text-align: center;

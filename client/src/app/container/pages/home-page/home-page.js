@@ -4,6 +4,7 @@ import "./home-page.css";
 import { BrowsePage } from "./browse-page/browse-page";
 import yayaLogo from "./yaya_app.png";
 import brandName from "./brand_name.png"
+import switchLan from "./switchLanguage.png";
 import Image from "react-bootstrap/Image";
 
 const messages = {
@@ -27,20 +28,19 @@ const messages = {
 
 export function HomePage(){
   const [language,setLanguage] = useState('cs');
-  const toggleLanguage=()=>{
-    if(language == 'ch'){
+  function toggleLanguage(){
+    console.log('The link was clicked.');
+    if(language === 'cs'){
       setLanguage('en');
     }else{
       setLanguage('cs');
     }
   }
-  // useEffect(()=>{
-  //   toggleLanguage();
-  // });
   return (
     <React.Fragment>
       <div className="HomePageContainer">
         <div><Image className= "brandLogo" src={yayaLogo} rounded /></div>
+        <div><Image className= "switchLan" src={switchLan} rounded onClick={toggleLanguage} /></div>
         <div className="basicInfoContainer">
           <Image className= "brandName" src={brandName} rounded />
           <div className="basicInfo">
