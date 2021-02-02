@@ -1,22 +1,14 @@
-import React, { Component } from "react";
-// import { Link } from "react-router-dom";
+import React from "react";
 import "./dish-cover.css";
 
-export default class DishCover extends Component {
-  render() {
-    return (
-      <React.Fragment>
-        <div className="DishCoverContainer">
-          <div className="imgContainer">
-            {/* <img
-              className="dishPic"
-              src={require("../../../../../assets/" + this.props.value.img)}
-              alt="a pic"
-            /> */}
-            <img src = "https://picsum.photos/150" alt="a pic"/>
-          </div>
+export function DishCover(){
+  return (
+    <React.Fragment>
+      <div className="DishCoverContainer">
+        <div className="imgContainer">
+          <img src = "https://picsum.photos/150" alt="a pic"/>
         </div>
-      </React.Fragment>
-    );
-  }
+      </div>
+    </React.Fragment>
+  );
 }
