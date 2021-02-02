@@ -5,6 +5,7 @@ from django.db import models
 class MenuInfo(models.Model):
     category = models.CharField(max_length=20)
     name = models.CharField(max_length=20, unique=True)
+    name_CN= models.CharField(max_length=20, unique=True)
     price = models.FloatField()
     stock = models.IntegerField()
     ingredient = models.CharField(max_length=200, blank=True)
@@ -12,5 +13,12 @@ class MenuInfo(models.Model):
     onSale = models.BooleanField(default=False)
     publish_at = models.DateTimeField(auto_now_add=True)
     img = models.ImageField(upload_to="covers/%Y/%m/%D", null=True, blank=True)
-      
+    
+    class Meta:
+        verbose_name = '后台管理'
+    def __str__(self):
+        return self.name
+    
+
+
 
