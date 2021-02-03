@@ -32,6 +32,7 @@ export function HomePage(){
     console.log('The link was clicked.');
     if(language === 'cs'){
       setLanguage('en');
+
     }else{
       setLanguage('cs');
     }
@@ -79,7 +80,7 @@ export function HomePage(){
           </div>
         </div>
       </div>
-      <div><BrowsePage/></div>
+      <div><BrowsePage language={language}/></div>
     </React.Fragment>
   );
 }

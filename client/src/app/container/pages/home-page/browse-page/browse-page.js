@@ -3,7 +3,7 @@ import "./browse-page.css";
 import { MainMenu } from "./main-menu/main-menu";
 import { NavBar } from "./browse-nav-bar/browse-nav-bar";
 import $ from "jquery";
-export function BrowsePage(){
+export function BrowsePage({language}){
   const [mainNavLinks, setMainNavLinks] = useState([]);
   useEffect(()=>{
     window.addEventListener('scroll', ()=>{
@@ -47,7 +47,7 @@ export function BrowsePage(){
   return (
     <React.Fragment>
       <div className="BrowsePageContainer">
-        <NavBar id="navbar"/>
+        <NavBar id="navbar" lan={language}/>
         <MainMenu />
       </div>
     </React.Fragment>
